@@ -24,7 +24,18 @@ const translateHandler = async () => {
     return;
   }
 
+  // TR text
+  //const keyword = "usually";
+  //const highlightedText = parsed.translation.replaceAll(keyword, `<span class="highlight">${keyword}</span>`); 
+
+
+  // Org. code 
+  //translatedArea.innerHTML = highlightedText;
+  
+  // TR text ende
+  // org Code: 
   translatedArea.innerHTML = parsed.translation;
+
   return;
 };
 
